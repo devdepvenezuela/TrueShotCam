@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+		<meta name="author" content="www.frebsite.nl" />
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+		<title>TrueShot</title>
+		<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 
+		
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link rel="apple-touch-startup-image" href="img/apple-touch-startup-image.png">
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+		<script type="text/javascript" src="js/o-script.js"></script>
+		
+		<script type='text/javascript' src='js/slider/jquery.mobile.customized.min.js'></script>
+		<script type='text/javascript' src='js/slider/jquery.easing.1.3.js'></script> 
+		<script type='text/javascript' src='js/slider/camera.min.js'></script> 
+		
+		<script>
+			jQuery(function(){
+				
+				jQuery('#camera_wrap_4').camera({
+					height: 'auto',
+					loader: 'bar',
+					pagination: false,
+					thumbnails: false,
+					hover: false,
+					opacityOnGrid: false
+				});
+
+			});
+		</script>
+	</head>
+	<body class="o-page p-home">
+		<div id="page">
+			<!-- Header -->
+			<div id="header">
+				<div class="header-content">
+					<a class="menu-btn" href="#menu"></a>
+					<!--<a href="javascript:history.back();" class="p-link-back"><i class="fa fa-arrow-left"></i></a>-->
+				</div>
+			</div>
+			<!-- Content -->
+			<div id="content">
+				<div class="home-content">
+                <br/>
+					<span id="Logo" class="svg">
+						<img src="img/logo.png" width="100%" />
+					</span>
+                     <br/>
+                     <br/>
+                        <img src="shot.png" width="50%" />
+				</div>
+				<div class="fluid_container">
+					<div class="camera_wrap camera_black_skin camera_emboss pattern_1" id="camera_wrap_4">
+						<div data-thumb="img/gallery/11.jpg" data-src="img/gallery/11.jpg">
+							<div class="bannerContent fadeFromBottom">
+								<div class="b-c-textpane">
+									<p>Estas listo para un TrueShot?</p>
+								</div>
+							</div>
+						</div>
+						<div data-thumb="img/gallery/22.jpg"  data-src="img/gallery/22.jpg">
+							<div class="bannerContent fadeFromBottom">
+								<div class="b-c-textpane">
+									<a href="#" class="home-scl-icon facebook">
+										<i class="fa fa-facebook"></i>
+										<div>TrueShot en Facebook</div>
+									</a>
+									<a href="#" class="home-scl-icon twitter">
+										<i class="fa fa-twitter"></i>
+										<div>TrueShot en Twitter</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div data-thumb="img/gallery/33.jpg"  data-src="img/gallery/33.jpg">
+							<div class="bannerContent fadeFromBottom">
+								<div class="b-c-textpane">
+									<a href="#" class="home-scl-icon facebook">
+										<i class="fa fa-facebook"></i>
+										<div>TrueShot en Facebook</div>
+									</a>
+									<a href="#" class="home-scl-icon twitter">
+										<i class="fa fa-twitter"></i>
+										<div>TrueShot en Twitter</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- #camera_wrap_3 -->
+
+				</div><!-- .fluid_container -->
+				
+				<!-- <a href="#" class="home-footer">
+					About us
+				</a> -->
+			</div>
+			
+			<!-- Menu navigation -->
+			<nav id="menu">
+				<ul>
+					<li class="Selected">
+						<a href="index.html">
+							<i class="fa fa-home"></i>Home
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-picture-o"></i>Mis TrueShots
+						</a>
+					</li>
+                    <li>
+						<a href="#">
+							<i class="fa fa-pencil-square-o"></i>Mi Perfil
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-th-list"></i>Configuración
+						</a>
+					</li>
+									</ul>
+			</nav>
+			
+		</div>
+	</body>
+</html>
