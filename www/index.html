@@ -37,6 +37,16 @@
 
 			});
 		</script>
+        <script>
+        function capturePhoto() { 
+    navigator.camera.getPicture(onSuccess, onFail, { quality: 90, 
+        destinationType: Camera.DestinationType.DATA_URL, 
+        correctOrientation: true, 
+        targetWidth: 1000, 
+        targetHeight: 1000 
+    }); 
+		}
+        </script>
 	</head>
 	<body class="o-page p-home">
 		<div id="page">
@@ -52,7 +62,7 @@
 				<div class="home-content">
                 <br/>
 					<span id="Logo" class="svg">
-						<img src="img/logo.png" width="100%" />
+						<a href="#" onClick="capturePhoto()"><img src="img/logo.png" width="100%" /></a>
 					</span>
                      <br/>
                      <br/>
@@ -99,9 +109,6 @@
 
 				</div><!-- .fluid_container -->
 				
-				<!-- <a href="#" class="home-footer">
-					About us
-				</a> -->
 			</div>
 			
 			<!-- Menu navigation -->
@@ -109,21 +116,21 @@
 				<ul>
 					<li class="Selected">
 						<a href="index.html">
-							<i class="fa fa-home"></i>Home
+							<i class="fa fa-home"></i>Inicio
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="myshots.html">
 							<i class="fa fa-picture-o"></i>Mis TrueShots
 						</a>
 					</li>
                     <li>
-						<a href="#">
-							<i class="fa fa-pencil-square-o"></i>Mi Perfil
+						<a href="me.html">
+							<i class="fa fa-user"></i>Mi Perfil
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="settings.html">
 							<i class="fa fa-th-list"></i>Configuración
 						</a>
 					</li>
